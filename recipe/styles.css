@@ -21,8 +21,8 @@ h1 {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18pt;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .eggsbenedict {
@@ -44,6 +44,7 @@ h1 {
 	max-width: 420px;
 	margin: auto;
 	background-color: white;
+	padding-bottom: 50px;
 	}
 .prep {
 	font-family: futura-pt, sans-serif;
@@ -67,6 +68,7 @@ h1 {
 	margin-right: 30px;
 	padding-bottom: 20px;
 	padding-top: 10px;
+	line-height: 1.5;
 }
 
 .headers {
@@ -99,4 +101,26 @@ h1 {
 	margin-left: 40px;
 	margin-right: 50px;
 	padding-bottom: 25px;
+
+}
+
+.steps {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12pt;
+	background-color: white;
+	margin-left: 30px;
+
+}
+
+.stepbody {
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12pt;
+	background-color: white;
+	margin-left: 30px;
+	margin-right:20px;
+	line-height: 1.5;
 }
