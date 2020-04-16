@@ -1,15 +1,16 @@
 body {
-	background-color: #ffffff;
+	background-color: white;
 	padding: 0;
 	margin: auto;
 	max-width: 960px;
 	font-family: 'Open Sans', sans-serif;
-	color: #1E90FF;
+	color: black;
 }
 
 h1 {
-	font-weight: 800;
+	font-weight: 600;
 	font-size: 24px;
+	color: red;
 }
 h2 {
 	font-weight: 600;
@@ -57,8 +58,7 @@ br {
 
 #related-links{
 	float: right;
-	color: #ffffff;
-	background-color: #1E90FF;
+	background-color: red;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 22px;
@@ -78,8 +78,8 @@ ul li{
 
 ul li a{
 	font-size: 14px;
-	font-weight: 300;
-	color:  #ffffff;
+	font-weight: 600;
+	color:  black;
 	text-decoration: none;
 	display: block;
 }
