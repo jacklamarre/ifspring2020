@@ -1,0 +1,503 @@
+body {
+	background-color: white;
+	margin: auto;
+	max-width: 1440px;
+	max-height: 1440px;
+	font-family: 'futura-pt', sans-serif;
+}
+
+#container {
+	margin: auto;
+	max-width: 1440px;
+}
+#container.after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#column-right {
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+
+#column-left {
+	float: left;
+	width: 60%;
+}
+
+
+#image {
+	background-image: url("beetle.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 75%;
+  	background-position: center;
+  	width: 100%;
+  	height: 800px;
+  	margin-left: 25px;
+  	margin-top: 50px;
+}
+
+
+#title {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 140px;
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+
+
+h1 {
+	font-size: 75px;
+	font-weight: 700;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 22px;
+	font-weight: 700;
+	margin-top: 276px;
+	padding-top: 60px;
+	padding-left: 14px;
+}
+
+li {
+	display: block;
+	margin-bottom: 18px;
+
+}
+
+
+
+#people {
+	color: #B22222;
+	text-decoration:none;
+}
+
+
+#people:hover{
+	color: black;
+}
+
+#wartime{
+	
+	color: #FFA500;
+	text-decoration:none;
+}
+
+#wartime:hover{
+	color: black;
+}
+
+
+#design {
+	
+	color: #FFDC00;
+	text-decoration:none;
+	
+}
+
+#design:hover{
+	color: black;
+}
+
+#change {
+	
+	color: #33CC33;
+	text-decoration:none;
+
+}
+
+#change:hover{
+	color: black;
+}
+
+#international {
+	
+	color: #00A3EB;
+	text-decoration:none;
+	
+}
+
+#international:hover{
+	color: black;
+}
+
+#motorsport {
+	
+	color: #00337A;
+	text-decoration:none;
+
+}
+
+#motorsport:hover{
+	color: black;
+}
+
+#rebirth {
+	
+	color: #993399;
+	text-decoration:none;
+	
+}
+
+#rebirth:hover{
+	color: black;
+}
+
+#death {
+	
+	color: black;
+	text-decoration:none;
+}
+
+#death:hover{
+	color: #B22222;
+}
+
+@media (max-width: 1160px){
+
+#title {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 200px;
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+
+
+h1 {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 270px;
+	padding-top: 60px;
+	padding-left: 14px;
+}
+
+li {
+	display: block;
+	margin-bottom: 18px;
+
+}
+
+
+}
+
+@media (max-width: 900px){
+
+
+#image {
+	margin-top: 5px;
+	margin-bottom:50px;
+	width: 100%;
+  	height: 600px;
+}
+
+#title {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 120px;
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+
+
+h1 {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 12px;
+	font-weight: 700;
+	margin-top: 170px;
+	padding-top: 60px;
+	padding-left: 14px;
+}
+
+li {
+	display: block;
+	margin-bottom: 12px;
+
+}
+
+
+}
+
+@media (max-width: 690px){
+
+#image {
+	margin-top: 5px;
+	margin-bottom:50px;
+	width: 100%;
+  	height: 500px;
+}
+
+#title {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 100px;
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 9px;
+	font-weight: 700;
+	margin-top: 140px;
+	padding-top: 60px;
+	padding-left: 14px;
+}
+
+li {
+	display: block;
+	margin-bottom: 9px;
+
+}
+
+
+}
+
+@media (max-width: 500px){
+
+#container {
+	max-height:1000px;
+	max-width: 500px;
+	margin-bottom: 700px;
+	margin-top: -500px;
+
+}
+
+#column-right {
+	float: none;
+	height: 100%;
+}
+
+#column-left {
+	float: none;
+}
+
+#image {
+	margin-top: -580px;
+	width: 120%;
+  	height: 300px;
+  	margin-left: 60px;
+	background-image: url("beetle.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  	background-position: center;
+
+ 
+}
+
+#title {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	width: 400px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 69px;
+
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: 700;
+	margin: 0;
+}
+
+#page-links {
+
+	margin-top: 500px;
+	margin-bottom: -300px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	width:400px;
+	height:200px;
+	padding-top: 500px;
+	padding-left: 40px;
+}
+
+li {
+	display: block;
+	margin-bottom: 24px;
+
+}
+
+
+#page-links {
+
+	margin-top: 500px;
+	margin-bottom: -150px;
+}
+
+
+}
+
+@media (max-width: 375px){
+
+#image {
+	margin-top: -580px;
+	width: 140%;
+  	height: 300px;
+  	margin-left: 55px;
+	background-image: url("beetle.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  	background-position: center;
+ 
+}
+
+}
+
+@media (max-width: 440px){
+
+#container {
+	max-height:1000px;
+	max-width: 500px;
+	margin-bottom: 700px;
+	margin-top: -500px;
+
+}
+
+#column-right {
+	float: none;
+	height: 100%;
+}
+
+#column-left {
+	float: none;
+}
+
+#image {
+	margin-top: -580px;
+	width: 120%;
+  	height: 300px;
+  	margin-left: 60px;
+	background-image: url("beetle.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  	background-position: center;
+
+ 
+}
+
+#title {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	width: 400px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 45px;
+
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: 700;
+	margin: 0;
+}
+
+#page-links {
+
+	margin-top: 500px;
+	margin-bottom: -300px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	width:400px;
+	height:200px;
+	padding-top: 500px;
+	padding-left: 14px;
+}
+
+li {
+	display: block;
+	margin-bottom: 24px;
+
+}
+
+
+#page-links {
+
+	margin-top: 500px;
+	margin-bottom: -150px;
+}
+
+
+}
+
+@media (max-width: 375px){
+
+#image {
+	margin-top: -580px;
+	width: 140%;
+  	height: 300px;
+  	margin-left: 55px;
+	background-image: url("beetle.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  	background-position: center;
+
+ 
+}
+
+}
+
+@media (max-width: 320px){
+
+#image {
+	margin-top: -580px;
+	width: 165%;
+  	height: 300px;
+  	margin-left: 55px;
+	background-image: url("beetle.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  	background-position: center;
+
+ 
+}
+
+
+}
