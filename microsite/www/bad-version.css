@@ -1,0 +1,334 @@
+
+@media (max-width: 1380px) {
+
+/*FOR SMALL LAPTOPS/LARGE TABLETS*/
+
+#title {
+	color: black;
+	float: right;
+	position: absolute;
+	right: 10.4em;
+	top: 13em;
+}
+
+#image {
+	background-image: url("beetle.jpg");
+	width: 100%;
+  	height: 800px;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	float: left;
+  	width: 75%;
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #B22222;
+	float: right;
+	position: absolute;
+	right: 11.4em;
+	top: 15.5em;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #FFA500;
+	float: right;
+	position: absolute;
+	right: 12.5em;
+	top: 17.3em;
+}
+
+h4 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #FFDC00;
+	float: right;
+	position: absolute;
+	right: 13.3em;
+	top: 18.9em;
+}
+
+h5 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #33CC33;
+	float: right;
+	position: absolute;
+	right: 10.3em;
+	top: 20.6em;
+}
+
+h6 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #00A3EB;
+	float: right;
+	position: absolute;
+	right: 6.6em;
+	top: 21.9em;
+}
+
+#motorsport {
+	font-size: 24px;
+	font-weight: 700;
+	color: #00337A;
+	float: right;
+	position: absolute;
+	right: 9.25em;
+	top: 25.5em;
+}
+
+#rebirth {
+	font-size: 24px;
+	font-weight: 700;
+	color: #993399;
+	float: right;
+	position: absolute;
+	right: 7.95em;
+	top: 27.5em;
+}
+
+#death {
+	font-size: 24px;
+	font-weight: 700;
+	color: black;
+	float: right;
+	position: absolute;
+	right: 13em;
+	top: 29.5em;
+}
+
+}
+
+
+
+
+@media (max-width: 1240px){
+
+
+/*FOR MEDIUM TABLETS*/
+
+#title {
+	color: black;
+	float: right;
+	position: absolute;
+	right: 10.4em;
+	top: 17.5em;
+}
+
+#image {
+	background-image: url("beetle.jpg");
+	width: 100%;
+  	height: 800px;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	float: left;
+  	width: 75%;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #B22222;
+	float: right;
+	position: absolute;
+	right: 14.75em;
+	top: 23.5em;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #FFA500;
+	float: right;
+	position: absolute;
+	right: 15.85em;
+	top: 25.3em;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #FFDC00;
+	float: right;
+	position: absolute;
+	right: 16.65em;
+	top: 26.9em;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #33CC33;
+	float: right;
+	position: absolute;
+	right: 13.65em;
+	top: 28.6em;
+}
+
+h6 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #00A3EB;
+	float: right;
+	position: absolute;
+	right: 9.95em;
+	top: 29.9em;
+}
+
+#motorsport {
+	font-size: 18px;
+	font-weight: 700;
+	color: #00337A;
+	float: right;
+	position: absolute;
+	right: 12.6em;
+	top: 33.5em;
+}
+
+#rebirth {
+	font-size: 18px;
+	font-weight: 700;
+	color: #993399;
+	float: right;
+	position: absolute;
+	right: 11.3em;
+	top: 35.5em;
+}
+
+#death {
+	font-size: 18px;
+	font-weight: 700;
+	color: black;
+	float: right;
+	position: absolute;
+	right: 16.35em;
+	top: 37.5em;
+}
+
+
+}
+@media (max-width: 1115px){
+
+
+/*FOR MEDIUM-SMALL TABLETS*/
+
+#title {
+	color: black;
+	float: right;
+	position: absolute;
+	right: 10.4em;
+	top: 17.5em;
+}
+
+
+#image {
+	background-image: url("beetle.jpg");
+	width: 100%;
+  	height: 800px;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	float: left;
+  	width: 75%;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #B22222;
+	float: right;
+	position: absolute;
+	right: 14.75em;
+	top: 23.5em;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #FFA500;
+	float: right;
+	position: absolute;
+	right: 15.85em;
+	top: 25.3em;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #FFDC00;
+	float: right;
+	position: absolute;
+	right: 16.65em;
+	top: 26.9em;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #33CC33;
+	float: right;
+	position: absolute;
+	right: 13.65em;
+	top: 28.6em;
+}
+
+h6 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #00A3EB;
+	float: right;
+	position: absolute;
+	right: 9.95em;
+	top: 29.9em;
+}
+
+#motorsport {
+	font-size: 18px;
+	font-weight: 700;
+	color: #00337A;
+	float: right;
+	position: absolute;
+	right: 12.6em;
+	top: 33.5em;
+}
+
+#rebirth {
+	font-size: 18px;
+	font-weight: 700;
+	color: #993399;
+	float: right;
+	position: absolute;
+	right: 11.3em;
+	top: 35.5em;
+}
+
+#death {
+	font-size: 18px;
+	font-weight: 700;
+	color: black;
+	float: right;
+	position: absolute;
+	right: 16.35em;
+	top: 37.5em;
+}
+
+
+}

@@ -302,18 +302,18 @@ li {
 
 #column-left {
 	float: none;
+	width: 500px;
+	height:100%
+	background-position: center;
+	margin-top: -680px;
 }
 
 #image {
-	margin-top: -580px;
-	width: 120%;
-  	height: 300px;
-  	margin-left: 60px;
 	background-image: url("beetle.jpg");
   	background-repeat: no-repeat;
-  	background-size: 100%;
-  	background-position: center;
-
+  	background-size: 75%;
+	background-position: center;
+	margin: 0;
  
 }
 
@@ -325,7 +325,7 @@ li {
 	width: 400px;
 	margin-top: 10px;
 	margin-right: 20px;
-	margin-left: 69px;
+	margin-left: 80px;
 
 }
 
@@ -349,7 +349,7 @@ ul {
 	width:400px;
 	height:200px;
 	padding-top: 500px;
-	padding-left: 40px;
+	padding-left: 53px;
 }
 
 li {
@@ -369,117 +369,3 @@ li {
 }
 
 
-@media (max-width: 440px){
-
-#container {
-	max-height:1000px;
-	max-width: 500px;
-	margin-bottom: 700px;
-	margin-top: -500px;
-
-}
-
-#column-right {
-	float: none;
-	height: 100%;
-}
-
-#column-left {
-	float: none;
-}
-
-#image {
-	width: 120%;
-  	height: 300px;
-  	margin-left: 60px;
-	background-image: url("beetle.jpg");
-  	background-repeat: no-repeat;
-  	background-size: 100%;
-  	background-position: center;
-
- 
-}
-
-#title {
-	color: black;
-	text-align: left;
-	float: left;
-	height: 80px;
-	width: 400px;
-	margin-top: 10px;
-	margin-right: 20px;
-	margin-left: 45px;
-
-}
-
-h1 {
-	font-size: 80px;
-	font-weight: 700;
-	margin: 0;
-}
-
-#page-links {
-
-	margin-top: 500px;
-	margin-bottom: -300px;
-}
-
-ul {
-	list-style-type: none;
-	text-align: center;
-	font-size: 24px;
-	font-weight: 700;
-	width:400px;
-	height:200px;
-	padding-top: 500px;
-	padding-left: 14px;
-}
-
-li {
-	display: block;
-	margin-bottom: 24px;
-
-}
-
-
-#page-links {
-
-	margin-top: 500px;
-	margin-bottom: -150px;
-}
-
-
-}
-
-@media (max-width: 375px){
-
-#image {
-	width: 140%;
-  	height: 300px;
-  	margin-left: 55px;
-	background-image: url("beetle.jpg");
-  	background-repeat: no-repeat;
-  	background-size: 100%;
-  
- 
-}
-
-}
-
-@media (max-width: 320px){
-
-#image {
-	
-	width: 165%;
-  	height: 300px;
-  	margin-left: 55px;
-	background-image: url("beetle.jpg");
-  	background-repeat: no-repeat;
-  	background-size: 100%;
-  	background-position: center;
-
- 
-}
-
-
-}
