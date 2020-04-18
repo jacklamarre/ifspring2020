@@ -389,7 +389,6 @@ li {
 }
 
 #image {
-	margin-top: -580px;
 	width: 120%;
   	height: 300px;
   	margin-left: 60px;
@@ -455,7 +454,6 @@ li {
 @media (max-width: 375px){
 
 #image {
-	margin-top: -580px;
 	width: 140%;
   	height: 300px;
   	margin-left: 55px;
@@ -471,7 +469,7 @@ li {
 @media (max-width: 320px){
 
 #image {
-	margin-top: -580px;
+	
 	width: 165%;
   	height: 300px;
   	margin-left: 55px;
