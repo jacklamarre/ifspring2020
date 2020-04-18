@@ -395,7 +395,7 @@ ul {
 	height:300px;
 	float: none;
 	position: relative;
-	bottom: 75em;
+	bottom: 67em;
 	left: 3.5em;
 
 }
@@ -417,7 +417,7 @@ ul {
   	background-repeat: no-repeat;
   	max-height:800px;
   	background-size: 75%;
-	background-position: center;
+	background-position: top;
 	margin: 0;
  
 }
