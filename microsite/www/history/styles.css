@@ -442,7 +442,7 @@ ul {
 	height: 80px;
 	width: 500px;
 	position: relative;
-	top: 4em;
+	top: 12em;
 	left: 3em;
 
 }
@@ -451,14 +451,14 @@ ul {
 	background-image: url("ferdinand.jpg");
   	background-repeat: no-repeat;
   	max-height:800px;
-  	background-size: 80%;
+  	background-size: 85%;
 	background-position: center;
 	margin-top: 0;
 	margin-bottom:0;
 	margin-left: 0;
 	margin-right: 0;
 	position: absolute;
-	bottom: 70em;
+	bottom: 63em;
  
 }
 
@@ -470,7 +470,7 @@ h1 {
 ul {
 	list-style-type: none;
 	font-weight: 700;
-	margin-top: 80px;
+	margin-top: 190px;
 	margin-left: 5px;
 	margin-right: 25px;
 	margin-bottom: 0;
