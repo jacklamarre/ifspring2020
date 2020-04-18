@@ -58,6 +58,10 @@ body {
 	color:black;
 }
 
+#bug-link:hover {
+	color: #B22222;
+}
+
 h1 {
 	font-size: 55px;
 	font-weight: 700;
@@ -394,9 +398,10 @@ ul {
 	width: 500px;
 	height:300px;
 	float: none;
-	position: relative;
-	bottom: 67em;
+	position: absolute;
+	bottom: 10em;
 	left: 3.5em;
+	margin:0;
 
 }
 	
@@ -418,9 +423,12 @@ ul {
   	max-height:800px;
   	background-size: 75%;
 	background-position: center;
-	margin: 0;
-	position: relative;
-	bottom: 8em;
+	margin-top: 0;
+	margin-bottom:0;
+	margin-left: 0;
+	margin-right: 0;
+	position: absolute;
+	bottom: 12em;
  
 }
 
@@ -435,6 +443,7 @@ ul {
 	margin-top: 80px;
 	margin-left: 10px;
 	margin-right: 20px;
+	margin-bottom: 0;
 	padding-left: 0;
 	height: 100%;
 	width: 600px;
