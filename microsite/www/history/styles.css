@@ -52,6 +52,7 @@ body {
 
 }
 
+
 #bug-link {
 	text-decoration:none;
 	color:black;
@@ -102,12 +103,6 @@ ul {
 
 }
 
-#bug {
-	font-size: 75px;
-	font-weight: 700;
-}
-
-
 
 #people {
 	color: #B22222;
@@ -121,18 +116,272 @@ ul {
 #main-content {
 	font-size: 16px;
 	line-height: 2em;
+	width:550px;
+	margin-right:30px;
+	margin-left:30px;
+	margin-bottom: 50px;
+
+}
+
+@media (max-width: 1240px){
+
+#bug {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 30px;
+	margin-left:10px;
+	margin-right: 10px;
 
 }
 
 
 
+ul {
+	list-style-type: none;
+	font-weight: 700;
+	margin-top: 340px;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding-left: 0;
+	height: 100%;
+	width: 600px;
+
+}
+
+
+
+
+}
+
+@media (max-width: 1140px){
+
+#bug {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 70px;
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+
+
+
+ul {
+	list-style-type: none;
+	font-weight: 700;
+	margin-top: 300px;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding-left: 0;
+	height: 100%;
+	width: 600px;
+
+}
+
+
+}
+
+@media (max-width: 1015px){
+
+#image {
+  	margin-top: 0px;
+}
+
+
+#bug {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 90px;
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+ul {
+	list-style-type: none;
+	font-weight: 700;
+	margin-top: 340px;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding-left: 0;
+	height: 100%;
+	width: 600px;
+
+}
+
+
+#the {
+	font-size: 70px;
+	font-weight: 700;
+	color: #B22222;
+	margin-bottom: -25px;
+} 
+
+#peoples {
+	font-size: 110px;
+	font-weight: 700;
+	color: #B22222;
+	margin-bottom: -70px;
+}
+
+
+
+#car {
+	font-size: 240px;
+	font-weight: 700;
+	color: #B22222
+}
+
+}
+
+@media (max-width: 845px){
+
+#bug {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 130px;
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+
+ul {
+	list-style-type: none;
+	font-weight: 700;
+	margin-top: 260px;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding-left: 0;
+	height: 100%;
+	width: 600px;
+
+}
+
+
+
+}
+
+@media (max-width: 745px){
+
+#bug {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 140px;
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+
+ul {
+	list-style-type: none;
+	font-weight: 700;
+	margin-top: 350px;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding-left: 0;
+	height: 100%;
+	width: 600px;
+
+}
+
+#the {
+	font-size: 40px;
+	font-weight: 700;
+	color: #B22222;
+	margin-bottom: -25px;
+} 
+
+#peoples {
+	font-size: 80px;
+	font-weight: 700;
+	color: #B22222;
+	margin-bottom: -70px;
+}
+
+
+
+#car {
+	font-size: 210px;
+	font-weight: 700;
+	color: #B22222
+}
+
+
+}
+
+@media (max-width: 690px){
+
+#bug {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 200px;
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+
+ul {
+	list-style-type: none;
+	font-weight: 700;
+	margin-top: 330px;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding-left: 0;
+	height: 100%;
+	width: 600px;
+
+}
+
+#the {
+	font-size: 25px;
+	font-weight: 700;
+	color: #B22222;
+	margin-bottom: -15px;
+} 
+
+#peoples {
+	font-size: 65px;
+	font-weight: 700;
+	color: #B22222;
+	margin-bottom: -60px;
+}
+
+
+
+#car {
+	font-size: 195px;
+	font-weight: 700;
+	color: #B22222
+}
+
+
+}
+
+
 @media (max-width: 500px){
 
 #container {
-	max-height:1000px;
-	max-width: 500px;
-	margin-bottom: 700px;
-	margin-top: -500px;
+	max-height:100%;
+	width:100%;
+	position: relative;
+	bottom: 15em;
 
 }
 
@@ -145,9 +394,79 @@ ul {
 	width: 500px;
 	height:300px;
 	float: none;
+	position: relative;
+	bottom: 75em;
+	left: 3.5em;
+
+}
+	
+#bug {
+	color: black;
+	text-align: center;
+	float: none;
+	height: 80px;
+	width: 500px;
+	position: relative;
+	top: 4em;
+	left: 3em;
+
+}
+
+#image {
+	background-image: url("ferdinand.jpg");
+  	background-repeat: no-repeat;
+  	max-height:800px;
+  	background-size: 75%;
+	background-position: center;
+	margin: 0;
+ 
+}
+
+h1 {
+	font-size: 65px;
+	font-weight: 700;
+}
+
+ul {
+	list-style-type: none;
+	font-weight: 700;
+	margin-top: 80px;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding-left: 0;
+	height: 100%;
+	width: 600px;
+	text-align:center;
+
+}
+
+#the {
+	font-size: 70px;
+	font-weight: 700;
+	color: #B22222;
+	margin-bottom: -15px;
+} 
+
+#peoples {
+	font-size: 80px;
+	font-weight: 700;
+	color: #B22222;
+	margin-bottom: -40px;
+}
+
+
+
+#car {
+	font-size: 160px;
+	font-weight: 700;
+	color: #B22222
+}
 	
 
-	
+#main-content {
+	position: relative;
+	top: 35em;
+
 }
 
 
