@@ -301,18 +301,21 @@ li {
 }
 
 #column-left {
-	float: none;
 	width: 500px;
-	height:100%
-	background-position: center;
-	margin-top: -680px;
+	height:100%;
+	float: none;
+	background-position: top;
+	position: relative;
+	bottom: 18rem;
+	
+	
 }
 
 #image {
 	background-image: url("beetle.jpg");
   	background-repeat: no-repeat;
   	background-size: 75%;
-	background-position: center;
+	background-position: top;
 	margin: 0;
  
 }
@@ -359,11 +362,6 @@ li {
 }
 
 
-#page-links {
-
-	margin-top: 500px;
-	margin-bottom: -150px;
-}
 
 
 }
