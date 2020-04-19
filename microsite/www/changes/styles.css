@@ -172,6 +172,38 @@ ul {
 
 }
 
+@media (max-width: 1366px){
+
+
+#bug {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 45px;
+	margin-left:10px;
+	margin-right: 10px;
+	padding-left: 20px;
+
+}
+
+
+
+ul {
+
+	margin-top: 555px;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding-left: 20px;
+	height: 100%;
+	width: 600px;
+
+}
+
+
+
+}
+
 
 @media (max-width: 1215px){
 
