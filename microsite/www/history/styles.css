@@ -159,6 +159,22 @@ ul {
 
 }
 
+@media (max-width: 1367px) and (min-width: 1365px){
+
+	#bug {
+
+		margin-top: 50px;
+
+	}
+
+	ul{
+
+		margin-top: 315px;
+
+	}
+
+}
+
 
 @media (max-width: 1215px){
 
