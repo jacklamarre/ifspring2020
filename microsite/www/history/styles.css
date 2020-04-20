@@ -53,18 +53,149 @@ body {
 }
 
 
-#bug-link {
-	text-decoration:none;
-	color:black;
-}
-
-#bug-link:hover {
+#the-bug:hover {
 	color: #B22222;
 }
 
-h1 {
+#the-bug:visited {
+	color:black;
+}
+
+#the-bug {
 	font-size: 55px;
 	font-weight: 700;
+	width: 400px;
+	padding-right: 800px;
+}
+
+#panel {
+	display: none;
+	background-color: white;
+	text-align: left;
+	margin-top: 160px;
+
+
+}
+
+#menu {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 1.75em;
+	font-weight: 700;
+	padding-left: 15px;
+}
+
+#home {
+	color: black;
+	text-decoration:none;
+}
+
+#home:hover {
+	color: #B22222;
+}
+
+#people {
+	color: #B22222;
+	text-decoration:none;
+}
+
+
+#people:hover{
+	color: black;
+}
+
+#war{
+	
+	color: #FFA500;
+	text-decoration:none;
+}
+
+#war:hover{
+	color: black;
+}
+
+
+#design-icon {
+	
+	color: #FFDC00;
+	text-decoration:none;
+	
+}
+
+#design-icon:hover{
+	color: black;
+}
+
+#change {
+	
+	color: #6B8E23;
+	text-decoration:none;
+
+}
+
+#change:hover{
+	color: black;
+}
+
+#international {
+	
+	color: #00A3EB;
+	text-decoration:none;
+	
+}
+
+#international:hover{
+	color: black;
+}
+
+#sport {
+	
+	color: #00337A;
+	text-decoration:none;
+
+}
+
+#sport:hover{
+	color: black;
+}
+
+#rebirth {
+	
+	color: #993399;
+	text-decoration:none;
+	
+}
+
+#rebirth:hover{
+	color: black;
+}
+
+#death {
+	
+	color: black;
+	text-decoration:none;
+}
+
+#death:hover{
+	color: #B22222;
+}
+
+
+
+
+#wartime {
+	font-size: 140px;
+	font-weight: 700;
+	color: #FFA500;
+	margin-bottom: -70px;
+}
+
+
+
+#relic {
+	font-size: 255px;
+	font-weight: 700;
+	color: #FFA500;
 }
 
 #the {
@@ -90,7 +221,7 @@ h1 {
 }
 
 
-ul {
+#titles {
 	list-style-type: none;
 	font-weight: 700;
 	margin-top: 330px;
@@ -141,9 +272,15 @@ ul {
 
 }
 
+#panel {
+	display: none;
+	background-color: white;
+	text-align: left;
+	margin-top: 200px;
 
 
-ul {
+}
+#titles {
 	list-style-type: none;
 	font-weight: 700;
 	margin-top: 280px;
@@ -168,7 +305,12 @@ ul {
 
 	}
 
-	ul{
+	#panel {
+
+	margin-top: 180px;
+}
+
+	#titles{
 
 		margin-top: 315px;
 
@@ -190,9 +332,18 @@ ul {
 
 }
 
+#panel {
+	display: none;
+	background-color: white;
+	text-align: left;
+	margin-top: 160px;
 
 
-ul {
+}
+
+
+
+#titles {
 	list-style-type: none;
 	font-weight: 700;
 	margin-top: 280px;
@@ -250,7 +401,7 @@ ul {
 
 
 
-ul {
+#titles {
 	list-style-type: none;
 	font-weight: 700;
 	margin-top: 210px;
@@ -287,7 +438,7 @@ h1 {
 	font-weight: 700;
 }
 
-ul {
+#titles {
 	margin-top: 230px;
 
 }
@@ -330,7 +481,13 @@ ul {
 	
 }
 
-ul {
+
+#menu {
+
+	font-size: 16px;
+}
+
+#titles {
 	
 	margin-top: 160px;
 	
@@ -352,7 +509,7 @@ ul {
 	
 }
 
-ul {
+#titles {
 	
 	margin-top: 150px;
 	
@@ -393,7 +550,17 @@ ul {
 
 }
 
-ul {
+#panel {
+	margin-top: 200px;
+
+}
+
+#menu {
+	font-size: 12px;
+
+}
+
+#titles {
 	
 	margin-top: 200px;
 	
@@ -460,7 +627,7 @@ ul {
 	width: 500px;
 	position: relative;
 	top: 12em;
-	left: 3em;
+	left: 5.5em;
 
 }
 
@@ -475,19 +642,34 @@ ul {
 	margin-left: 0;
 	margin-right: 0;
 	position: absolute;
-	bottom: 63em;
+	bottom: 65em;
  
 }
 
-h1 {
+#the-bug {
 	font-size: 65px;
 	font-weight: 700;
+	padding: 0;
 }
 
-ul {
+#panel {
+	display: none;
+	background-color: white;
+	text-align: center;
+	margin-top: 240px;
+	margin-left: 200px;
+
+
+}
+
+#menu {
+	font-size: 50px;
+}
+
+#titles {
 	list-style-type: none;
 	font-weight: 700;
-	margin-top: 190px;
+	margin-top: 220px;
 	margin-left: 5px;
 	margin-right: 25px;
 	margin-bottom: 0;
@@ -503,6 +685,7 @@ ul {
 	font-weight: 700;
 	color: #B22222;
 	margin-bottom: -15px;
+	display:none;
 } 
 
 #peoples {
