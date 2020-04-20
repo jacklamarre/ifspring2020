@@ -7,15 +7,40 @@
 	<link rel="stylesheet" href="https://use.typekit.net/xzr0pst.css">
 	<title>INTERNATIONAL SUPERSTAR</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script> 
+		$(document).ready(function(){
+		  $("#bug").click(function(){
+		    $("#panel").slideToggle("slow");
+		    if (outerWidth <= 500) {
+      			$("#people, #wartime, #design, #change, #inter, #sport, #rebirth, #death").remove();
+    }
+
+  });
+});
+</script>
 </head>
 <body>
 <div id="container">
 	<div id="column-right">
 		<div id="bug">
-			<h2 id="the-bug"><a id="bug-link" href="index.html">THE BUG.</a></h2>
+			<h2 id="the-bug">THE BUG.</h2>
+
 		</div>
+		<h2 id="panel">
+			<ul id="menu">
+				<li><a id="home" href="index.html">HOME.</a></li>
+				<li><a id="people" href="history.html">THE PEOPLE'S CAR.</a></li>
+				<li> <a id="wartime" href="wartime.html">WARTIME RELIC.</a></li>
+				<li><a id="design" href="design.html">DESIGN ICON.</a></li>
+				<li><a id="change" href="changes.html">(N)EVER CHANGING.</a></li>
+				<li> <a id="inter" href="international.html">INTERNATIONAL SUPERSTAR.</a></li>
+				<li><a id="sport" href="motorsport.html">MOTORSPORT LEGEND.</a></li>
+				<li> <a id="rebirth" href="newbeetle.html">REBIRTH OF THE CENTURY.</a></li>
+				<li> <a id="death" href="death.html">DEATH BY SUV.</a></li>
+			</ul>
+		</h2>
 		<div id="the-peoples-car">
-			<ul>
+			<ul id="titles">
 				<li id="international">INTERNATIONAL</li>
 				<li id="superstar">SUPERSTAR.</li>
 			</ul>
