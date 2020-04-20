@@ -275,7 +275,7 @@ body {
 	display: none;
 	background-color: white;
 	text-align: left;
-	margin-top: 170px;
+	margin-top: 220px;
 
 
 }
@@ -290,12 +290,16 @@ body {
 
 }
 
-#titles{
+#titles {
 
 	margin-top: 410px;
 
 }
 
+#panel {
+
+	margin-top: 170px;
+}
 
 }
 
