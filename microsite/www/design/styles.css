@@ -517,6 +517,8 @@ ul {
 #main-content {
 	position: relative;
 	top: 36em;
+	padding-left: 0px;
+
 
 }
 
