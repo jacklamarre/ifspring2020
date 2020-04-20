@@ -60,6 +60,10 @@ body {
 	color: #B22222;
 }
 
+#the-bug:visited {
+	color:black;
+}
+
 #the-bug {
 	font-size: 55px;
 	font-weight: 700;
@@ -663,7 +667,7 @@ html {
 }
 
 #menu {
-	font-size: 18px;
+	font-size: 30px;
 }
 
 #titles {
@@ -685,7 +689,6 @@ html {
 #motorsport {
 	font-size: 60px;
 	font-weight: 700;
-	color: #00A3EB;
 	padding-top: 10px;
 	margin-bottom: -20px;
 }
@@ -695,7 +698,6 @@ html {
 #legend {
 	font-size: 107px;
 	font-weight: 700;
-	color: #00A3EB;
 	padding-left: 25px;
 
 }
