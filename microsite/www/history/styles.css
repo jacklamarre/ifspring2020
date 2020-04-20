@@ -524,6 +524,8 @@ ul {
 #main-content {
 	position: relative;
 	top: 34em;
+	padding-left: 0px;
+
 
 }
 
