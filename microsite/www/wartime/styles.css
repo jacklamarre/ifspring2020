@@ -49,23 +49,29 @@ body {
 	margin-top: 30px;
 	margin-left:10px;
 	margin-right: 10px;
+	cursor: pointer;
 
 }
 
-
-#the-bug:hover {
-	color: #B22222;
-}
-
-#the-bug:visited {
-	color:black;
-}
 
 #the-bug {
 	font-size: 55px;
 	font-weight: 700;
 	width: 400px;
-	padding-right: 800px;
+	padding-right: 400px;
+}
+
+#buttons {
+  width: 24px;
+  height: 2px;
+  background-color: #c8cfd6;
+  margin: 6px 0;
+}
+
+#button {
+	margin-top: -90px;
+	margin-left: 250px;
+
 }
 
 #panel {
@@ -180,22 +186,6 @@ body {
 	color: #B22222;
 }
 
-
-
-#design {
-	font-size: 176px;
-	font-weight: 700;
-	color: #FFDC00;
-	margin-bottom: -70px;
-}
-
-
-
-#icon {
-	font-size: 255px;
-	font-weight: 700;
-	color: #FFDC00;
-}
 
 
 
@@ -431,6 +421,13 @@ h1 {
 
 }
 
+#button {
+	margin-top: -88px;
+	margin-left: 250px;
+
+
+}
+
 
 
 #wartime {
@@ -654,6 +651,11 @@ h1 {
 	font-weight: 700;
 	padding: 0;
 }
+
+#button {
+	display: none;
+}
+ 
 
 #panel {
 	display: none;
