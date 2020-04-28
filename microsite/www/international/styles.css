@@ -50,7 +50,7 @@ body {
 	margin-left:15px;
 	margin-right: 10px;
 	padding-left: 25px;
-
+	cursor: pointer;
 }
 
 
@@ -79,8 +79,22 @@ body {
 	font-size: 55px;
 	font-weight: 700;
 	width: 400px;
-	padding-right: 800px;
+	padding-right: 400px;
 }
+
+#buttons {
+  width: 24px;
+  height: 2px;
+  background-color: #c8cfd6;
+  margin: 6px 0;
+}
+
+#button {
+	margin-top: -90px;
+	margin-left: 250px;
+
+}
+
 
 #panel {
 	display: none;
@@ -434,6 +448,14 @@ body {
 	font-weight: 700;
 }
 
+#button {
+	margin-top: -67px;
+	margin-left: 185px;
+
+
+}
+
+
 #titles {
 	margin-top: 425px;
 
@@ -629,6 +651,10 @@ html {
 	top: 12em;
 	left: 4em;
 
+}
+
+#button {
+	display: none;
 }
 
 #image {
