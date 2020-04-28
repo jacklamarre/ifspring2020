@@ -49,24 +49,31 @@ body {
 	margin-top: 40px;
 	margin-left:10px;
 	margin-right: 10px;
+	cursor: pointer;
 
 }
 
-
-#the-bug:hover {
-	color: #B22222;
-}
-
-#the-bug:visited {
-	color:black;
-}
 
 #the-bug {
 	font-size: 55px;
 	font-weight: 700;
 	width: 400px;
-	padding-right: 800px;
+	padding-right: 400px;
 }
+
+#buttons {
+  width: 24px;
+  height: 2px;
+  background-color: #c8cfd6;
+  margin: 6px 0;
+}
+
+#button {
+	margin-top: -90px;
+	margin-left: 250px;
+
+}
+
 
 #panel {
 	display: none;
@@ -438,6 +445,15 @@ h1 {
 	font-weight: 700;
 }
 
+#button {
+	margin-top: -88px;
+	margin-left: 250px;
+
+
+}
+
+
+
 #titles {
 	margin-top: 230px;
 
@@ -629,6 +645,10 @@ h1 {
 	top: 12em;
 	left: 5.5em;
 
+}
+
+#button {
+	display:none;
 }
 
 #image {
