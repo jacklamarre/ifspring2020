@@ -652,14 +652,14 @@ html {
 	background-image: url("dune.jpg");
   	background-repeat: no-repeat;
   	max-height:800px;
-  	background-size: 100%;
+  	background-size: 90%;
 	background-position: center;
 	margin-top: 0;
 	margin-bottom:0;
 	margin-left: 0;
 	margin-right: 18px;
 	position: absolute;
-	bottom: 71em;
+	bottom: 66em;
  
 }
 
@@ -701,7 +701,7 @@ html {
 
 
 #killed {
-	font-size: 65px;
+	font-size: 100px;
 	font-weight: 700;
 	padding-top: 10px;
 	margin-bottom: -20px;
@@ -710,9 +710,9 @@ html {
 
 
 #suv {
-	font-size: 55px;
+	font-size: 88px;
 	font-weight: 700;
-	padding-left: 10px;
+	padding-left: 12px;
 
 }
 
