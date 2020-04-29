@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://wudesign.me/resources/js-show-hide/show-hide.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Show and Hide</title>
+		
+
+		<!-- This is where I'm including the jQuery library into the page. Add this on every page of your site -->
+		<script src="Show and Hide_files/jquery.min.js.download"></script>
+
+		<!-- This is my own jQuery. You should create a separate file and link to it as above. -->
+		<script>
+
+			$( document ).ready(function() {			/* Check that the DOM (the document) is ready */
+			    
+				$(".controls").click(function(){		/* Listen for a "click" on somewith with the class of "controls" */
+					$("#drawer").toggleClass("open");	/* Toggle (add/remove) the class "open" on an element with the ID of "drawer" */
+					console.log("Toggled the class!");	/* Logged a note to the console so I could see that the function ran */
+				});
+
+			});
+
+		</script>
+		
+		<style>
+
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: Arial, sans-serif;
+			}
+
+			#drawer {
+				position: fixed;
+				top: 0;
+				left: 10px;
+				width: 250px;
+				height: 30px;
+			}
+
+			#drawer button.controls {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				height: 30px;
+				width: 100%;
+				background-color: #ccffcc;
+				cursor: pointer;
+			}
+
+			#drawer.open button.controls {
+				background-color: #ccccff;
+			}
+
+			#drawer button.controls:after {
+				content: "open +";
+				font-family: Arial, sans-serif;
+				font-size: 10px;
+			}
+
+			#drawer.open button.controls:after {
+				content: "close -";
+			}
+
+			#drawer .contents {
+				height: 0;
+				padding: 0 10px;
+				box-sizing: border-box;
+				width: 100%;
+				background-color: orange;
+				color: #fff;
+				transition: all .5s;
+			}
+
+			#drawer.open .contents {
+				height: 200px;
+				padding: 30px 10px 10px 10px;
+			}
+
+
+		</style>
+
+	</head>
+	<body>
+
+		<div id="drawer" class="">
+			<button class="controls"></button>
+			<div class="contents">
+				<h1>Surprise!</h1> 
+				<p>We had some text hidden until you clicked on the button.</p>
+			</div>
+		</div>
+
+	
+
+</body></html>

@@ -1,0 +1,737 @@
+body {
+	background-color: white;
+	margin: auto;
+	max-width: 1440px;
+	max-height: 1440px;
+	font-family: 'futura-pt', sans-serif;
+}
+
+#container {
+	margin: auto;
+	max-width: 1440px;
+}
+#container.after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#column-right {
+	float: right;
+	width: 55%;
+	height: 100%;
+}
+
+#column-left {
+	float: left;
+	width: 45%;
+
+}
+
+
+#image {
+	background-image: url("dune.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 90%;
+  	background-position: center;
+  	width: 100%;
+  	height: 800px;
+  	margin-left: 25px;
+  	margin-top: 64px;
+}
+
+
+#bug {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 0px;
+	margin-left:15px;
+	margin-right: 10px;
+	padding-left: 25px;
+	cursor: pointer;
+
+}
+
+
+
+
+
+#the-bug {
+	font-size: 55px;
+	font-weight: 700;
+	width: 400px;
+	padding-right: 400px;
+}
+
+#buttons {
+  width: 24px;
+  height: 2px;
+  background-color: #c8cfd6;
+  margin: 6px 0;
+}
+
+#button {
+	margin-top: -90px;
+	margin-left: 250px;
+
+
+}
+
+#panel {
+	display: none;
+	background-color: white;
+	text-align: left;
+	margin-top: 140px;
+
+
+}
+
+
+
+
+
+#menu {
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 1.75em;
+	font-weight: 700;
+}
+
+#home {
+	color: black;
+	text-decoration:none;
+}
+
+#home:hover {
+	color: #B22222;
+}
+
+#people {
+	color: #B22222;
+	text-decoration:none;
+}
+
+
+#people:hover{
+	color: black;
+}
+
+#wartime{
+	
+	color: #FFA500;
+	text-decoration:none;
+}
+
+#wartime:hover{
+	color: black;
+}
+
+
+#design {
+	
+	color: #FFDC00;
+	text-decoration:none;
+	
+}
+
+#design:hover{
+	color: black;
+}
+
+#change {
+	
+	color: #6B8E23;
+	text-decoration:none;
+
+}
+
+#change:hover{
+	color: black;
+}
+
+#international {
+	
+	color: #00A3EB;
+	text-decoration:none;
+	
+}
+
+#international:hover{
+	color: black;
+}
+
+#sport {
+	
+	color: #00337A;
+	text-decoration:none;
+
+}
+
+#sport:hover{
+	color: black;
+}
+
+#rebirth {
+	
+	color: #993399;
+	text-decoration:none;
+	
+}
+
+#rebirth:hover{
+	color: black;
+}
+
+#death {
+	
+	color: black;
+	text-decoration:none;
+}
+
+#death:hover{
+	color: #B22222;
+}
+
+#killed {
+	font-size: 180px;
+	font-weight: 700;
+	color: black;
+	margin-bottom: -30px;
+
+}
+
+
+
+#suv {
+	font-size: 155px;
+	font-weight: 700;
+	color: black;
+	margin-left: 5px;
+
+}
+
+
+#titles {
+	list-style-type: none;
+	font-weight: 700;
+	margin-top: 510px;
+	margin-left: 15px;
+	margin-right: 20px;
+	padding-left: 25px;
+	height: 100%;
+	width: 600px;
+
+}
+
+#killed, #suv {
+	display: block;
+
+}
+
+
+
+#main-content {
+	font-size: 18px;
+	line-height: 2em;
+	width:550px;
+	margin-right:30px;
+	margin-left:30px;
+	margin-bottom: 50px;
+	padding-left: 15px;
+	padding-top: 20px;
+
+}
+
+
+#overview, #launch, #engines, #special {
+
+
+	font-size: 40px;
+	font-weight: 700;
+	color: #CC7722;
+}
+
+
+@media (max-width: 1390px){
+
+
+
+
+#panel {
+	display: none;
+	background-color: white;
+	text-align: left;
+	margin-top: 140px;
+
+
+}
+
+#titles {
+
+	margin-top: 510px;
+	
+
+}
+
+#killed {
+	margin-bottom: -30px;
+	
+}
+
+
+
+#suv {
+
+	font-weight: 700;
+	
+}
+
+
+}
+
+
+
+
+@media (max-width: 1367px) and (min-width: 1365px){
+
+#bug {
+	color: black;
+	text-align: left;
+	float: left;
+	height: 80px;
+	margin-top: 0px;
+	margin-left:10px;
+	margin-right: 10px;
+	padding-left: 20px;
+
+}
+
+#titles{
+
+	margin-top: 510px;
+	
+
+}
+
+
+}
+
+@media (max-width: 1356px){
+
+#bug{
+
+	margin-top:30px;
+
+}
+
+#titles{
+
+	margin-top: 480px;
+
+
+}
+
+#panel {
+	display: none;
+	background-color: white;
+	text-align: left;
+	margin-top: 190px;
+
+
+}
+
+
+}
+
+
+@media (max-width: 1215px){
+
+#bug {
+
+	margin-top: 0px;
+
+
+}
+
+#panel {
+	display: none;
+	background-color: white;
+	text-align: left;
+	margin-top: 150px;
+
+
+}
+
+
+#titles{
+	margin-top: 445px;
+
+
+}
+
+
+#killed {
+	font-size: 160px;
+	margin-bottom: -30px;
+	
+}
+
+
+
+#suv {
+	font-size: 140px;
+	font-weight: 700;
+	
+}
+
+
+
+#image {
+
+	margin-top: 10px;
+}
+
+
+}
+
+@media (max-width: 1140px){
+
+#bug {
+
+	margin-top: -10px;
+	
+
+}
+
+
+
+#titles{
+	
+	margin-top: 360px;
+
+
+}
+
+
+
+#image {
+
+	margin-top: -40px;
+}
+
+}
+
+@media (max-width: 1015px){
+
+
+
+#bug {
+
+	margin-top: 30px;
+
+
+}
+
+#the-bug {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+#button {
+	margin-top: -70px;
+	margin-left: 185px;
+
+
+}
+
+#titles{
+	margin-top: 310px;
+
+}
+
+
+
+#killed {
+	font-size: 140px;
+	margin-bottom: -20px;
+}
+
+
+
+#suv {
+	font-size: 120px;
+	font-weight: 700;
+}
+
+
+#image {
+
+	margin-top: -70px;
+}
+
+
+}
+
+
+@media (max-width: 845px){
+
+#bug {
+	margin-top: 35px;
+	
+}
+
+#titles{
+	
+	margin-top: 265px;
+	
+
+}
+
+#image {
+
+	margin-top: -90px;
+}
+
+
+}
+
+@media (max-width: 760px){
+
+#bug {
+	margin-top: 25px;
+	
+}
+
+#titles{
+	
+	margin-top: 215px;
+	
+
+}
+
+
+#image {
+	margin-top: -120px;
+}
+
+#menu {
+
+	font-size: 16px;
+}
+
+}
+
+@media (max-width: 690px){
+
+#bug {
+
+	margin-top: 60px;
+	
+
+}
+
+#titles{
+	
+	margin-top: 240px;
+	
+
+}
+
+#panel {
+	display: none;
+	background-color: white;
+	text-align: left;
+	margin-top: 170px;
+
+
+}
+
+
+
+#killed {
+	font-size: 110px;
+	margin-bottom: -15px;
+}
+
+
+
+#suv {
+	font-size: 95px;
+	font-weight: 700;
+}
+
+
+
+}
+
+@media (max-width: 590px){
+
+#bug {
+
+	margin-top: 80px;
+
+	
+
+}
+
+#titles{
+	
+	margin-top: 210px;
+	
+	
+
+}
+
+#killed {
+	
+	margin-bottom: -10px;
+}
+
+
+
+#suv {
+	
+}
+
+
+
+}
+
+
+@media (max-width: 500px){
+
+html {
+	max-width: 425;
+}
+
+#container {
+	max-height:100%;
+	width:100%;
+	position: relative;
+	bottom: 15em;
+
+}
+
+#button {
+	display: none;
+}
+
+#column-right {
+	float: none;
+	height: 100%;
+}
+
+#column-left {
+	width: 500px;
+	height:2000px;
+	float: none;
+	position: absolute;
+	top: 20em;
+	left: 3.5em;
+	margin:0;
+
+}
+	
+#bug {
+	color: black;
+	text-align: center;
+	float: none;
+	height: 80px;
+	width: 500px;
+	position: relative;
+	top: 12em;
+	left: 4em;
+
+}
+
+
+
+#image {
+	background-image: url("dune.jpg");
+  	background-repeat: no-repeat;
+  	max-height:800px;
+  	background-size: 100%;
+	background-position: center;
+	margin-top: 0;
+	margin-bottom:0;
+	margin-left: 0;
+	margin-right: 18px;
+	position: absolute;
+	bottom: 71em;
+ 
+}
+
+#the-bug {
+	font-size: 65px;
+	font-weight: 700;
+	padding: 0;
+}
+
+
+#panel {
+	display: none;
+	background-color: white;
+	text-align: center;
+	margin-top: 210px;
+	margin-left: 220px;
+
+
+}
+
+#menu {
+	font-size: 30px;
+}
+
+#titles {
+	list-style-type: none;
+	font-weight: 700;
+	margin-top: 190px;
+	margin-left: 5px;
+	margin-right: 25px;
+	margin-bottom: 0;
+	padding-left: 0;
+	height: 100%;
+	width: 600px;
+	text-align:center;
+
+}
+
+
+
+#killed {
+	font-size: 65px;
+	font-weight: 700;
+	padding-top: 10px;
+	margin-bottom: -20px;
+}
+
+
+
+#suv {
+	font-size: 55px;
+	font-weight: 700;
+	padding-left: 10px;
+
+}
+
+
+#main-content {
+	position: relative;
+	top: 39em;
+	padding-left: 0px;
+
+}
+
+#overview, #launch, #engines, #special {
+
+	text-align: center;
+
+}
+
+
+}
+
+
+
